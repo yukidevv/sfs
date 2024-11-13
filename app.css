@@ -1,0 +1,3 @@
+.office:has(input:checked){
+    color: #ea1414;
+}
