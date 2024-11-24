@@ -26,8 +26,8 @@ let boxes = document.querySelectorAll("input[type='checkbox']");
 console.log(boxes);
 //boxes.addEventListener('click', buttonClick);
 
-boxes.forEach(function(box) {
-    box.addEventListener("change", function() {
+boxes.forEach(box => {
+    box.addEventListener("change", => {
         console.log(box);
     });
 });
