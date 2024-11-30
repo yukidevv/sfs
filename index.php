@@ -6,32 +6,14 @@
 <title>Sample</title>
 </head>
 <body>
-
-<p>Sample</p>
-
-<label class="office">
-    <input type="checkbox" class="check1">check1<br>
-</label>
-<label class="office">
-    <input type="checkbox" class="check11">check11<br>
-</label>
-<label class="office">
-    <input type="checkbox" class="check2">check2<br>
-</label>
-
-<script>
-//const office = document.getElementById("office");
-//console.log(office);
-let boxes = document.querySelectorAll("input[type='checkbox']");
-console.log(boxes);
-//boxes.addEventListener('click', buttonClick);
-
-boxes.forEach(box => {
-    box.addEventListener("change", => {
-        console.log(box);
-    });
-});
-</script>
-
+  <div class = "lists">
+    <ul>
+        <li>book1</li>
+        <li>book2</li>
+        <li>book3</li>
+        <li>book4</li>
+        <li>book5</li>
+    </ul>
+</div>
 </body>
 </html>

@@ -1,3 +1,6 @@
-.office:has(input:checked){
+.lists li:nth-child(even){
     color: #ea1414;
+}
+.lists li:nth-child(odd){
+    color: #340aee;
 }
